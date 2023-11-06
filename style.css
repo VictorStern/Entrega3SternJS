@@ -52,10 +52,11 @@ header h1 {
     max-width: 200px;
     margin: auto;
     border: 1px solid #666;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 20px;
     transition: .3s;
     background: linear-gradient(to bottom, rgb(208, 232, 240), rgb(62, 148, 176), rgb(20, 112, 137), rgb(2, 2, 54));
+    
 }
 
 .contenedor .contenedor-items .item .img-item {
@@ -150,6 +151,8 @@ header h1 {
     width: 30px;
     padding: 5px;
     text-align: center;
+    color: rgb(155, 0, 0);
+    font-weight: bolder;
 }
 
 .carrito .carrito-item .selector-cantidad i {
@@ -174,14 +177,14 @@ header h1 {
     position: absolute;
     right: 15px;
     top: 15px;
-    color: #000;
+    color: red;
     font-size: 20px;
     width: 40px;
     height: 40px;
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-    border: 1px solid #000;
+    border: 1px solid red;
     cursor: pointer;
     display: block;
     background: transparent;
@@ -206,6 +209,80 @@ header h1 {
     margin-bottom: 10px;
 }
 
+/*.carrito-total .btn-pagar {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 45px;
+    border: none;
+    background-color: rgb(151, 95, 255);
+    color: white;
+    box-shadow: 0px 10px 10px rgb(210, 187, 253) inset,
+    0px 5px 10px rgba(5, 5, 5, 0.212),
+    0px -10px 10px rgb(124, 54, 255) inset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .B.carrito-total .btn-pagar::before {
+    width: 70%;
+    height: 2px;
+    position: absolute;
+    background-color: rgba(250, 250, 250, 0.678);
+    content: "";
+    filter: blur(1px);
+    top: 7px;
+    border-radius: 50%;
+  }
+  
+  .carrito-total .btn-pagar::after {
+    width: 70%;
+    height: 2px;
+    position: absolute;
+    background-color: rgba(250, 250, 250, 0.137);
+    content: "";
+    filter: blur(1px);
+    bottom: 7px;
+    border-radius: 50%;
+  }
+  
+  .carrito-total .btn-pagar:hover {
+    animation: jello-horizontal 0.9s both;
+  }
+  
+  @keyframes jello-horizontal {
+    0% {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    75% {
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    100% {
+      transform: scale3d(1, 1, 1);
+    }
+  }*/
+  
+
 .carrito-total .btn-pagar {
     display: block;
     width: 100%;
@@ -224,7 +301,7 @@ header h1 {
 
 .carrito-total .btn-pagar:hover {
     scale: 1.05;
-}
+}*/
 
 /* SECCION RESPONSIVE */
 @media screen and (max-width: 850px) {
